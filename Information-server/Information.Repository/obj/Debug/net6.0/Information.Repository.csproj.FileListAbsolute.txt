@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\bin\Debug\net6.0\Information.Repository.deps.json
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\bin\Debug\net6.0\Information.Repository.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\bin\Debug\net6.0\Information.Repository.pdb
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.AssemblyInfo.cs
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\refint\Information.Repository.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\Information.Repository.pdb
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Repository\obj\Debug\net6.0\ref\Information.Repository.dll
