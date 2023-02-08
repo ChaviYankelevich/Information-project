@@ -1,0 +1,106 @@
+<div>
+   <br/>
+<form (ngSubmit)="save(myForm)" #myForm="ngForm">
+ <p>
+    <mat-form-field appearance="outline">
+      <mat-label>שם פרטי</mat-label>
+      <input matInput [(ngModel)]="information.firstName" name="firstName" firstName="ngModel" required (blur)="setInStorage()" value="information.firstName">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+     
+    </mat-form-field>
+  </p>
+
+ <p>
+    <mat-form-field appearance="outline">
+      <mat-label>שם משפחה</mat-label>
+      <input matInput [(ngModel)]="information.lastName" name="lastName" lastName="ngModel" required (blur)="setInStorage()" value="information.lastName">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>תעודת זהות</mat-label>
+      <input matInput [(ngModel)]="information.id" name="id" id="ngModel" type="number" required (blur)="setInStorage()" value="information.id" maxlength="9" minlength="9">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>תאריך לידה</mat-label>
+      <input matInput [(ngModel)]="information.birthDate" name="birthDate" birthDate="ngModel" type="date" required (blur)="setInStorage()" value="information.date">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
+    </mat-form-field>
+  </p>
+  <p>
+  <mat-form-field appearance="outline">
+    <mat-label>מין</mat-label>
+     <mat-select [formControl]="colorControl" [(ngModel)]="select" name="select" select="ngModel" (blur)="setInStorage()" value="select">
+        
+     <mat-option value="male">זכר</mat-option>
+      <mat-option value="female">נקבה</mat-option>
+    </mat-select> 
+  </mat-form-field>
+</p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>קופת חולים</mat-label>
+      <input matInput [(ngModel)]="information.hMO" name="hMO" hMO="ngModel" required (blur)="setInStorage()" value="information.hMO"> 
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
+    </mat-form-field>
+  </p>
+  
+ 
+
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>מספר ילדים</mat-label>
+      <input matInput [(ngModel)]="numChildren" name="numChildren" numChildren="ngModel"  type="number" required (blur)="showChildren()" value="chaildren.length">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
+    </mat-form-field>
+  </p> 
+  <div *ngFor="let item of arrNum">
+<h3>ילד {{item+1}}</h3>
+    <p>
+    <mat-form-field appearance="outline">
+        <mat-label>שם</mat-label>
+        <input matInput [(ngModel)]="chaildren[item].name" name="name" name="ngModel" required  (blur)="setInStorage()" value="chaildren[item].name">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+       
+      </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>תאריך לידה</mat-label>
+            <input matInput [(ngModel)]="chaildren[item].birthDate" type="date" name="birthDate" birthDate="ngModel"required value="chaildren[item].birthDate" (blur)="setInStorage()">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+           
+          </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>מספר זהות</mat-label>
+                <input matInput [(ngModel)]="chaildren[item].id" type="number" name="id" id="ngModel" required value="chaildren[item].id" (blur)="setInStorage()">
+                <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+               
+              </mat-form-field>
+            </p>
+  </div> 
+  <!-- <p> -->
+    <!-- <mat-form-field appearance="outline"> -->
+      
+      <!-- <input type="submit" > -->
+      <button type="submit" class="btn btn-outline-warning" [disabled]="!myForm.valid">Submit</button>
+      <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>     -->
+    <!-- </mat-form-field> -->
+  <!-- </p>  -->
+
+<button type="button" class="btn btn-outline-warning" (click)="clean(myForm)" id="btn">לניקוי הטופס</button></form>
+</div>
+
+
+
+   
+
+  
+    
+        

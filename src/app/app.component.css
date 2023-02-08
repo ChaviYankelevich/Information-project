@@ -1,0 +1,10 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';    
+h1{
+    text-align: center;
+    color: #9c7123;
+}
+.cotainer{
+    display: block;
+    margin: 20px;
+    position: absolute;
+}
