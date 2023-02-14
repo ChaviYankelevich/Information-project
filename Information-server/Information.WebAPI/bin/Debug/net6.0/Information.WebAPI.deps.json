@@ -11,7 +11,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1",
           "Information.Common": "1.0.0",
           "Information.Context": "1.0.0",
-          "Information.Repository": "1.0.0",
           "Information.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.13",
           "Microsoft.EntityFrameworkCore.Design": "6.0.13",
@@ -573,9 +572,6 @@
         }
       },
       "Information.Common/1.0.0": {
-        "dependencies": {
-          "Information.Repository": "1.0.0"
-        },
         "runtime": {
           "Information.Common.dll": {}
         }

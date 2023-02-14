@@ -1,9 +1,10 @@
-﻿using AutoMapper;
+using AutoMapper;
 using Information.Common.DTOs;
 using Information.Repository.Entity;
 using Information.Repository.Interfaces;
 using Information.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Information.Service.Services
 {
     public class InformationService : IinformationService
     {
-        private readonly IinformationRepository _informationRepository;
+    private readonly IinformationRepository _informationRepository;
         private readonly IMapper _mapper;
         public InformationService(IinformationRepository informationRepository, IMapper mapper)
         {
@@ -22,9 +23,10 @@ namespace Information.Service.Services
             _mapper = mapper;
         }
 
-        public async Task<InformationDTO> AddAsync(int id, string firstName, string lastName, DateTime birthDate,EMOF eMOF, string hMO)
+        public async Task<InformationDTO> AddAsync(InformationDTO information)
         {
-            return _mapper.Map<InformationDTO>(await _informationRepository.AddAsync(id,firstName,lastName,birthDate,eMOF,hMO));
+            Informations newInformation = _mapper.Map<Informations>(information);
+            return _mapper.Map<InformationDTO>(await _informationRepository.AddAsync(newInformation.Id,newInformation.FirstName,newInformation.LastName,newInformation.BirthDate,newInformation.EMOF,newInformation.HMO));
         }
 
         public async Task DeleteAsync(int id)
@@ -42,9 +44,9 @@ namespace Information.Service.Services
             return _mapper.Map<InformationDTO>(await _informationRepository.GetByIdAsync(Id));
         }
 
-        public async Task<InformationDTO> UpdateAsync(Informations information)
+        public async Task<InformationDTO> UpdateAsync(InformationDTO information)
         {
-            return _mapper.Map<InformationDTO>(await _informationRepository.UpdateAsync(information));
+            return _mapper.Map<InformationDTO>(await _informationRepository.UpdateAsync(_mapper.Map < Informations > (information)));
         }
     }
 }

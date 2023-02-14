@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruEoc5jhfeZH1odSZaht+Re9xzswwJEBaKUZravozp1AIERWIYfdf6reqjCu/zTCBeeErngc/epR7p+2CnE7NA==",
+  "dgSpecHash": "Wk2WWUw1Zj9kGBW9iAa+BcBXLmHJtsTW1xYOJV14S0Anq8Dj1tW3a/NOQ4Oe5qS+SHHqrwrD91u5htEZVCFruQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.WebAPI\\Information.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.WebAPI\\Information.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

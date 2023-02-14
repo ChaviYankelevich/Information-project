@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import Information from '../models/Information';
-import {Form, FormControl,ReactiveFormsModule} from '@angular/forms';
+import {Form, FormControl,ReactiveFormsModule, Validators} from '@angular/forms';
 import {ThemePalette} from '@angular/material/core';
 import Chaild from '../models/Chaild';
 import { InfornationService } from '../services/infornation-service';

@@ -1,4 +1,4 @@
-﻿using Information.Common.DTOs;
+using Information.Common.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace Information.Service.Interfaces
         Task<List<ChaildDTO>> GetAllAsync();
         Task<ChaildDTO> GetByIdAsync(int Id);
         Task<ChaildDTO> AddAsync(int Id, string Name, DateTime BirthDate,int ParentId);
-        Task<ChaildDTO> UpdateAsync(Chaild c);
+        Task<ChaildDTO> UpdateAsync(ChaildDTO c);
         Task DeleteAsync(int id);        
     }
 }

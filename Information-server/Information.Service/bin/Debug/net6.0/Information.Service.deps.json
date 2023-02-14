@@ -235,9 +235,6 @@
         }
       },
       "Information.Common/1.0.0": {
-        "dependencies": {
-          "Information.Repository": "1.0.0"
-        },
         "runtime": {
           "Information.Common.dll": {}
         }

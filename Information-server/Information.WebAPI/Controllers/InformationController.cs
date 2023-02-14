@@ -1,5 +1,4 @@
-﻿using Information.Common.DTOs;
-using Information.Repository.Entity;
+using Information.Common.DTOs;
 using Information.Service.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -28,15 +27,11 @@ namespace Information.WebAPI.Controllers
             return await _informationService.GetByIdAsync(id);
         }
         [HttpPost]
-        public async Task<InformationDTO> Post([FromBody] InformationDTO information) => await _informationService.AddAsync(information.Id, information.FirstName, information.LastName, information.BirthDate, (Repository.Entity.EMOF)information.EMOF, information.HMO);
+        public async Task<InformationDTO> Post([FromBody] InformationDTO information) => await _informationService.AddAsync(information);
         [HttpPut("{id}")]
         public async Task<InformationDTO> Put(int id, [FromBody] InformationDTO information)
-        {
-            //if(id/100000000==0||id/ 1000000000!=0)
-            //{
-            //    throw new ArgumentException("invalid id!");
-            //}
-            return await _informationService.UpdateAsync(new Informations() { Id = id, FirstName = information.FirstName, LastName = information.LastName, BirthDate = information.BirthDate, EMOF =information.EMOF, HMO = information.HMO });
+        {          
+            return await _informationService.UpdateAsync(new InformationDTO() { Id = id, FirstName = information.FirstName, LastName = information.LastName, BirthDate = information.BirthDate, EMOF =information.EMOF, HMO = information.HMO });
         }
         [HttpDelete("{id}")]
         public async Task Delete(int id)

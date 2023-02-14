@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\Information.Service.csproj": {}
+    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\Information.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\Information.Common.csproj": {
+    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\Information.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\Information.Common.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\Information.Common.csproj",
         "projectName": "Information.Common",
-        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\Information.Common.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\Information.Common.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,11 +31,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj": {
-                "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -67,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj": {
+    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj",
         "projectName": "Information.Repository",
-        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\Information.Service.csproj": {
+    "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\Information.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\Information.Service.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\Information.Service.csproj",
         "projectName": "Information.Service",
-        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\Information.Service.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\Information.Service.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,11 +156,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\Information.Common.csproj": {
-                "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Common\\Information.Common.csproj"
+              "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\Information.Common.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Common\\Information.Common.csproj"
               },
-              "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj": {
-                "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj"
+              "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj"
               }
             }
           }

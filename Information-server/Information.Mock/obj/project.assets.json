@@ -604,11 +604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Mock\\Information.Mock.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Mock\\Information.Mock.csproj",
       "projectName": "Information.Mock",
-      "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Mock\\Information.Mock.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Mock\\Information.Mock.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Mock\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Mock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -629,8 +629,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj": {
-              "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Repository\\Information.Repository.csproj"
+            "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Repository\\Information.Repository.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qJUpz1riHnd+DOymBSBN+Q/2dXfT90bikHfl7yaWW6Z9eQ/kKpDF/7/kSI7VFOX0LOtevtyICMFV9Dz6cKt64g==",
+  "dgSpecHash": "chf1bSx1k3IW0DuQgzUIlbW2rYVPaJNlJ+onoo/hRLUlqM3VuI+PLeaEh+R7r7nRnMUcRi/Mu0Ej835fWcIJhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Mock\\Information.Mock.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Mock\\Information.Mock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.13\\microsoft.entityframeworkcore.abstractions.6.0.13.nupkg.sha512",

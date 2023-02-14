@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using Information.Common.DTOs;
 using Information.Repository.Entity;
 using Information.Repository.Interfaces;
@@ -42,9 +42,9 @@ namespace Information.Service.Services
             return _mapper.Map<ChaildDTO>(await _chaildRepository.GetByIdAsync(Id));
         }
 
-        public async Task<ChaildDTO> UpdateAsync(Chaild c)
+        public async Task<ChaildDTO> UpdateAsync(ChaildDTO c)
         {
-            return _mapper.Map<ChaildDTO>(await _chaildRepository.UpdateAsync(c));
+            return _mapper.Map<ChaildDTO>(await _chaildRepository.UpdateAsync(_mapper.Map<Chaild>(c)));
         }
     }
 }

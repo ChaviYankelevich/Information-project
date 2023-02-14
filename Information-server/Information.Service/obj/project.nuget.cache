@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w+uciDQnsURGMX32LhkWtWDndLakFn0ws9lrCvUoD+nI+87xwr01IoZgudQzXwp+jjTJ0QorQWziAitu+dma9g==",
+  "dgSpecHash": "XSo/9oFiUEYBO+Km3VY1twIjzlCbpN8VqJDqgHvAqWaz4tQT2FLuHNJXboVWHBFqrolkf3gBv4xYrs6QnUXl9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Service\\Information.Service.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Service\\Information.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

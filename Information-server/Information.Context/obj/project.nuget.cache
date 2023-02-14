@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pj6S2k/yDaSV7NeYhl7LJ46RlVLJZBhfsRg3Mvf4AdLXnnAnmT1jOyiGhZKfPQF7J/O6cGotLF9YbxcfwaYExw==",
+  "dgSpecHash": "+sEivBVNfchaF8FJnhHgxtrPxClwaXrpBleG4SxhN1f0C5ve6Fytsci4h5NQoVrDdKFoTwzmn6xzyqCIZUH5mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information\\Information.Context\\Information.Context.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\תכנות שנה ב\\פרקטיקום\\Information-project\\Information-server\\Information.Context\\Information.Context.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,5 +1,4 @@
-﻿using Information.Common.DTOs;
-using Information.Repository.Entity;
+using Information.Common.DTOs;
 using Information.Service.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -34,7 +33,7 @@ namespace Chailds.WebAPI.Controllers
         [HttpPut("{id}")]
         public async Task<ChaildDTO> Put(int id, [FromBody] ChaildDTO Chaild)
         {
-            return await _ChaildService.UpdateAsync(new Chaild() { Id = id, Name = Chaild.Name, BirthDate = Chaild.BirthDate, ParentId = Chaild.ParentId });
+            return await _ChaildService.UpdateAsync(Chaild);
         }
         [HttpDelete("{id}")]
         public async Task Delete(int id)

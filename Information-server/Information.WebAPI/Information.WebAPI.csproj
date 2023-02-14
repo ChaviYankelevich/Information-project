@@ -19,7 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Information.Common\Information.Common.csproj" />
     <ProjectReference Include="..\Information.Context\Information.Context.csproj" />
-    <ProjectReference Include="..\Information.Repository\Information.Repository.csproj" />
     <ProjectReference Include="..\Information.Service\Information.Service.csproj" />
   </ItemGroup>
 

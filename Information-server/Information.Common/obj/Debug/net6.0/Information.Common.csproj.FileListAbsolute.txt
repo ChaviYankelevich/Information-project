@@ -13,3 +13,15 @@ C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Inform
 C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Common\bin\Debug\net6.0\Information.Repository.dll
 C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Common\bin\Debug\net6.0\Information.Repository.pdb
 C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information\Information.Common\obj\Debug\net6.0\Information.Common.csproj.CopyComplete
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\bin\Debug\net6.0\Information.Common.deps.json
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\bin\Debug\net6.0\Information.Common.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\bin\Debug\net6.0\Information.Common.pdb
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.AssemblyInfo.cs
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\refint\Information.Common.dll
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\Information.Common.pdb
+C:\Users\USER\Documents\תכנות שנה ב\פרקטיקום\Information-project\Information-server\Information.Common\obj\Debug\net6.0\ref\Information.Common.dll
