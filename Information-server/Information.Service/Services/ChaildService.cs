@@ -22,9 +22,9 @@ namespace Information.Service.Services
             _mapper = mapper;
         }
 
-        public async Task<ChaildDTO> AddAsync(int Id, string Name, DateTime BirthDate,int ParentId)
+        public async Task<ChaildDTO> AddAsync(List<ChaildDTO>chaildren)
         {    
-            return _mapper.Map<ChaildDTO>(await _chaildRepository.AddAsync(Id, Name, BirthDate,ParentId));
+            return _mapper.Map<ChaildDTO>(await _chaildRepository.AddAsync(_mapper.Map<List<Chaild>>(chaildren)));
         }
 
         public async Task DeleteAsync(int id)

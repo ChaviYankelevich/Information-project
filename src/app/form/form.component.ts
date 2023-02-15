@@ -54,10 +54,11 @@ constructor(public informationService:InfornationService,public chaildrenService
 
   }
 showChildren(){
-  for(let i=this.chaildren.length;i<this.numChildren;i++)
+  console.log(this.numChildren,this.chaildren)
+  for(let i=this.chaildren.length-1;i<this.numChildren;i++)
   {
     this.chaildren.push(new Chaild(null,null,null,null));
-    this.arrNum.push(i);
+    this.arrNum.push(i+1);
   }
   console.log(this.arrNum);
 this.chaildren.splice(this.numChildren);
@@ -97,9 +98,9 @@ this.informationService.addInformation(this.information);
 for(let i=0;i<this.numChildren;i++)
   {
     this.chaildren[i].parentId=this.information.id;
-    this.chaildrenService.addChaild(this.chaildren[i]);
+    
   }
-
+this.chaildrenService.addChaild(this.chaildren);
 Swal.fire({
     title: "האם ברצונך לקבל את הנתונים בקובץ אקסל?",
     icon: "question",

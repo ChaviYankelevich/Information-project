@@ -71,7 +71,7 @@
     <p>
         <mat-form-field appearance="outline">
             <mat-label>תאריך לידה</mat-label>
-            <input matInput [(ngModel)]="chaildren[item].birthDate" type="date" name="birthDate" birthDate="ngModel"required value="chaildren[item].birthDate" (blur)="setInStorage()">
+            <input matInput [(ngModel)]="chaildren[item].birthDate" type="date" name="birthDateFather" birthDateFather="ngModel"required value="chaildren[item].birthDate" (blur)="setInStorage()">
             <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
            
           </mat-form-field>
@@ -79,7 +79,7 @@
         <p>
             <mat-form-field appearance="outline">
                 <mat-label>מספר זהות</mat-label>
-                <input matInput [(ngModel)]="chaildren[item].id" type="number" name="id" id="ngModel" required value="chaildren[item].id" (blur)="setInStorage()">
+                <input matInput [(ngModel)]="chaildren[item].id" type="number" name="idFather" idFather="ngModel" required value="chaildren[item].id" (blur)="setInStorage()">
                 <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
                
               </mat-form-field>

@@ -1,4 +1,4 @@
-﻿using Information.Repository.Entity;
+using Information.Repository.Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace Information.Repository.Interfaces
     {
         Task<List<Chaild>> GetAllAsync();
         Task<Chaild> GetByIdAsync(int Id);
-        Task<Chaild> AddAsync(int Id, string Name, DateTime BirthDate,int ParentId);
+        Task<Chaild> AddAsync(List<Chaild>chaildren);
         Task<Chaild> UpdateAsync(Chaild c);
         Task DeleteAsync(int id);
     }

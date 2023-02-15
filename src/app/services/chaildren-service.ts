@@ -15,8 +15,8 @@ export class ChaildrenService {
  getChaildById(id:number){
    return this.http.get<Chaild>(`${this.routeUrl}/${id}`);
  }
- addChaild(chaild:Chaild){
-   return this.http.post<Chaild>(`${this.routeUrl}`,chaild);
+ addChaild(chaildren:Chaild[]){
+   return this.http.post<Chaild[]>(`${this.routeUrl}`,chaildren);
  }
  deleteChaild(id:number){
    return this.http.delete<Chaild>(`${this.routeUrl}/ ${id}`);

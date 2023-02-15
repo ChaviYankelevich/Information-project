@@ -26,9 +26,10 @@ namespace Chailds.WebAPI.Controllers
             return await _ChaildService.GetByIdAsync(id);
         }
         [HttpPost]
-        public async Task<ChaildDTO> Post([FromBody] ChaildDTO Chaild)
+        public async Task<ChaildDTO> Post([FromBody]List<ChaildDTO> Chaildren)
         {
-            return await _ChaildService.AddAsync(Chaild.Id,Chaild.Name, Chaild.BirthDate,Chaild.ParentId);
+
+            return await _ChaildService.AddAsync(Chaildren);
         }
         [HttpPut("{id}")]
         public async Task<ChaildDTO> Put(int id, [FromBody] ChaildDTO Chaild)

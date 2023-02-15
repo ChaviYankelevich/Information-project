@@ -14,7 +14,7 @@ namespace Information.Service.Interfaces
     {
         Task<List<ChaildDTO>> GetAllAsync();
         Task<ChaildDTO> GetByIdAsync(int Id);
-        Task<ChaildDTO> AddAsync(int Id, string Name, DateTime BirthDate,int ParentId);
+        Task<ChaildDTO> AddAsync(List<ChaildDTO>chaildren);
         Task<ChaildDTO> UpdateAsync(ChaildDTO c);
         Task DeleteAsync(int id);        
     }

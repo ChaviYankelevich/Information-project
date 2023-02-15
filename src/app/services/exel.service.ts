@@ -13,16 +13,22 @@ information:Information;
 processedData:Information[]=[];
 processedData2:Chaild[]=[];
 chaildren:Chaild[];
-  constructor(public localStorage:LocalStrageService) { }
-  async generateExcel() {
+  constructor(public localStorage:LocalStrageService) { 
     this.localStorage.currentUser.next(this.localStorage.getFromStorage("user"))
-    this.sub = this.localStorage.currentUser.subscribe(data => { this.information = data })
+    this.sub = this.localStorage.currentUser.subscribe(data => { this.information = data;
+      this.localStorage.currentChaildren.next(this.localStorage.getFromStorage("chaild"))
+      this.sub = this.localStorage.currentChaildren.subscribe(data => { this.chaildren = data })
+    })
+  }
+  async generateExcel() {
+    
     const data = this.information;
       this.processedData.push(this.information);
    
     const dataParsed = JSON.stringify(this.processedData);
     const JSobj = JSON.parse(dataParsed);
-    console.log(JSobj);
+    // console.log(JSobj);
+    console.log(data)
     const header = Object.keys(data);
     const csv = JSobj.map((row: Information) =>
       header
@@ -32,8 +38,7 @@ chaildren:Chaild[];
     csv.unshift(header.join('\t'));
     const csvArray = csv.join('\r\n');
     if(this.chaildren!=null){
-      this.localStorage.currentChaildren.next(this.localStorage.getFromStorage("chaild"))
-    this.sub = this.localStorage.currentChaildren.subscribe(data => { this.chaildren = data })
+     
     this.processedData2=this.chaildren;
     const dataParsed2 = JSON.stringify(this.processedData2);
     const JSobj2 = JSON.parse(dataParsed2);
