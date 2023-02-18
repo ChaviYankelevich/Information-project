@@ -41,13 +41,23 @@
     </mat-select> 
   </mat-form-field>
 </p>
-  <p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>קופת חולים</mat-label>
+     <mat-select [formControl]="colorControl" [(ngModel)]="information.hMO" name="hmo" hmo="ngModel" (blur)="setInStorage()"  >
+        
+     <mat-option *ngFor="let item of hmoArr" value="item">{{item}}</mat-option>
+      <!-- <mat-option value="female">נקבה</mat-option> -->
+    </mat-select> 
+  </mat-form-field>
+</p>
+  <!-- <p>
     <mat-form-field appearance="outline">
       <mat-label>קופת חולים</mat-label>
-      <input matInput [(ngModel)]="information.hMO" name="hMO" hMO="ngModel" required (blur)="setInStorage()" value="information.hMO"> 
+      <input matInput [(ngModel)]="" name="hMO" hMO="ngModel" required (blur)="setInStorage()" value="information.hMO"> 
       <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>    
     </mat-form-field>
-  </p>
+  </p> -->
   
  
 

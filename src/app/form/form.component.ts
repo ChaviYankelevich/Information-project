@@ -26,6 +26,7 @@ arrNum:number[]=[];
 chaildren:Chaild[]=[];
 sub: Subscription;
 myForm:any;
+hmoArr:string[]=["מכבי","מאוחדת","כללית","לאומית"]
 /**
  *
  */
