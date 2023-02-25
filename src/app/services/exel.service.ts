@@ -22,12 +22,15 @@ chaildren:Chaild[];
   }
   async generateExcel() {
     
+
+
+    
     const data = this.information;
       this.processedData.push(this.information);
    
     const dataParsed = JSON.stringify(this.processedData);
     const JSobj = JSON.parse(dataParsed);
-    // console.log(JSobj);
+    console.log(JSobj);
     console.log(data)
     const header = Object.keys(data);
     const csv = JSobj.map((row: Information) =>

@@ -7,7 +7,7 @@ import { InfornationService } from '../services/infornation-service';
 import { ChaildrenService } from '../services/chaildren-service';
 import { LocalStrageService } from '../services/local-strage.service';
 import { Subscription } from 'rxjs';
-import Swal from 'sweetalert2/dist/sweetalert2.js'; 
+import Swal from 'sweetalert2'; 
 import { ExelService } from '../services/exel.service';
 // import swal from 'sweetalert';
 
@@ -77,14 +77,15 @@ setInStorage()
 }
 clean(form){
   Swal.fire({
-    title: "האם אתה בטוח?",
+    title: 'האם אתה בטוח?',
     text: "אחרי הניקוי הטופס ימחק ולא תהיה אפשרות שחזור!",
-    icon: "warning",
-    buttons: true,
-    dangerMode: true,
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: 'כן!',
+    cancelButtonText: 'ביטןל!',
   })
   .then((willDelete) => {
-    if (willDelete) {
+    if (willDelete.isConfirmed) {
       form.reset();
       this.localStorage.currentUser.next(this.information);
   this.localStorage.removeFromStorage()
@@ -103,13 +104,13 @@ for(let i=0;i<this.numChildren;i++)
   }
 this.chaildrenService.addChaild(this.chaildren);
 Swal.fire({
-    title: "האם ברצונך לקבל את הנתונים בקובץ אקסל?",
-    icon: "question",
-    buttons: ["כן","לא"],
-    dangerMode: true,
-  })
-  .then((downLowd) => {
-    if (downLowd) {
+  title: "האם ברצונך לקבל את הנתונים בקובץ אקסל?",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonText: 'כן!',
+  cancelButtonText: 'לא!',
+}).then((downLowd) => {
+    if (downLowd.isConfirmed) {
     this.exelService.generateExcel();
     Swal.fire({
     title: "עבודה טובה!",

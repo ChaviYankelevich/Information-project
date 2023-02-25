@@ -11,18 +11,18 @@ export class LocalStrageService {
   currentChaildren=new BehaviorSubject<Chaild[]>(null);
   constructor() {  }
   setInStorage(user:Information,chaildren:Chaild[]) {
-      localStorage.setItem("currentUser", JSON.stringify(user));
+      localStorage.setItem("user", JSON.stringify(user));
       localStorage.setItem("currentChaildren", JSON.stringify(chaildren));
 
 }
 getFromStorage(identifier:string) {
-  let u =identifier=="user"? localStorage.getItem("currentUser"):localStorage.getItem("currentChaildren");
+  let u =identifier=="user"? localStorage.getItem("user"):localStorage.getItem("currentChaildren");
   if (!u)
     return null;
   return JSON.parse(u);
 }
 removeFromStorage() {
-  localStorage.removeItem("currentUser");
+  localStorage.removeItem("user");
   localStorage.removeItem("currentChaildren");
 
 }
